@@ -1,3 +1,9 @@
+provider "azurerm" {
+    subscription_id = ""
+    client_id       = ""
+    client_secret   = ""
+    tenant_id       = ""
+}
 resource "azurerm_resource_group" "aci-rg" {
   name     = "RGDemoBanco"
   location = "westus"
